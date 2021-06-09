@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 25px;
+}
