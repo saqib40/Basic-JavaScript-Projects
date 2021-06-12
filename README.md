@@ -6,3 +6,4 @@
 * "Day & Night Mode" Live demo [here](https://codepen.io/_sakibhussain/full/bGqxpJQ)
 * "Temperature Converter" Live demo [here](https://codepen.io/_sakibhussain/full/qBrMzam)
 * "Rock Paper Scissor" Live demo [here](https://codepen.io/_sakibhussain/full/gOmBvjR)
+* "Random Story Generator" Live demo [here](https://codepen.io/_sakibhussain/full/PopdEPo)
