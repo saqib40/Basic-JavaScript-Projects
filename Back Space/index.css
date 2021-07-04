@@ -1,0 +1,16 @@
+button {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+  }
+  .backSpace {
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-family: monospace;
+    font-size: 40px;
+    text-align: center;
+  }
