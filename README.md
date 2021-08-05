@@ -11,3 +11,4 @@
 10. "Calculator" Live Demo [here](https://codepen.io/_sakibhussain/full/JjWgpPg)
 11. "Back Space" Live Demo [here](https://codepen.io/_sakibhussain/pen/wvJQKVZ?editors=0010)
 12. "Menu" Live Demo [here](https://codepen.io/_sakibhussain/pen/jOmaeZJ)
+13. "Printing IST 100 Thousand Primes" Live Demo [here](https://codepen.io/_sakibhussain/pen/RwVNppB)
