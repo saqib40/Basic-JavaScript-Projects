@@ -1,0 +1,12 @@
+.whole {
+  display: flex;
+  justify-content: center;
+}
+.a {
+  color: red;
+  margin-right: 25px;
+}
+h1 {
+  text-align: center;
+  font-family: monospace;
+}
