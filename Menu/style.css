@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+#Menu {
+  box-sizing: border-box;
+  height: 33vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#Menu > p {
+  font-size: 120px;
+  line-height: 1.42;
+  text-align: center;
+  width: 33.33vw;
+  cursor: pointer;
+}
+#body {
+  height: 67vh;
+  width: 100vw;
+  background-color: #6edcdb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+#body > p {
+  font-size: 120px;
+  text-align: center;
+  line-height: 1.7;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: white;
+}
+#aB {
+  display: block;
+}
+#bB {
+  display: none;
+}
+#cB {
+  display: none;
+}
