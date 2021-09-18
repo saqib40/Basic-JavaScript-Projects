@@ -1,5 +1,5 @@
 # Basic-JavaScript-Projects
-1. "Fun" Live demo [here](https://codepen.io/_sakibhussain/full/gOmKbwg)
+1. "Fun (my ist js project)" Live demo [here](https://codepen.io/_sakibhussain/full/gOmKbwg)
 2. "Counter" Live demo [here](https://codepen.io/_sakibhussain/full/vYxaXrG)
 3. "Color Flipper" Live demo [here](https://codepen.io/_sakibhussain/full/RwpJveJ)
 4. "Tabs" Live demo [here](https://codepen.io/_sakibhussain/full/eYvjKxp)
