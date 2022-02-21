@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@500&display=swap");
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: black;
+}
+
+.container {
+  height: 110px;
+  width: 110px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Semi circles here are formed using clip property because of rotation reasons */
+.semiCircleARight {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  border-radius: 100%;
+  clip: rect(0px, 100px, 100px, 50px);
+  z-index: 15;
+  transform: rotate(180deg);
+  animation: right 8s linear both;
+}
+.semiCircleBLeft {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  border-radius: 50%;
+  clip: rect(0px, 50px, 100px, 0px);
+  animation: left 4s linear both;
+  z-index: 16;
+}
+@keyframes right {
+  100% {
+    transform: rotate(540deg);
+  }
+}
+@keyframes left {
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.circle {
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  border-radius: 100%;
+  background-color: black;
+  z-index: 1300;
+  text-align: center;
+  line-height: 6;
+}
+
+.toHide {
+  height: 108px;
+  width: 55px;
+  box-sizing: border-box;
+  background-color: black;
+  position: absolute;
+  z-index: 1200;
+  margin-left: -55px;
+  animation: change 4s linear both;
+}
+@keyframes change {
+  from {
+    z-index: 1200;
+  }
+  to {
+    z-index: 0;
+  }
+}
+
+.number {
+  color: orange;
+  font-family: "Roboto Serif", sans-serif;
+}
