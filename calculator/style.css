@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: -5px;
+}
+body {
+ background-color: black; 
+}
 .container {
     text-align: center;
-    margin-top: 50px;
+  margin-top: 20px;
 }
 table {
     margin: auto;
@@ -9,15 +21,23 @@ input {
     font-size: 30px;
     margin-bottom: 15px;
     box-sizing: border-box;
-    border: 5px solid black;
+    border: 2px solid black;
+  width: 380px;
+  height: 50px;
+  font-family: 'Montserrat', sans-serif;
 }
 button {
     font-size: 40px;
     width: 92px;
-    height: 92px;
+    height: 55px;
+  background-color: #504e53;
+  color: white;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  line-height: 0.223;
 }
 .calculator {
     display: inline-block;
-    background: brown;
+    background: white;
     padding: 10px;
 }
